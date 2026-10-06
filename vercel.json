@@ -1,0 +1,51 @@
+{
+  "framework": null,
+  "outputDirectory": "public",
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/fishing",
+      "destination": "/magic-hats",
+      "permanent": true
+    },
+    {
+      "source": "/fishing.html",
+      "destination": "/magic-hats",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "https://dili-wonka.flxthe6th.workers.dev/api/:path*"
+    },
+    {
+      "source": "/auth/:path*",
+      "destination": "https://dili-wonka.flxthe6th.workers.dev/auth/:path*"
+    },
+    {
+      "source": "/logout",
+      "destination": "https://dili-wonka.flxthe6th.workers.dev/logout"
+    },
+    {
+      "source": "/dungeon",
+      "destination": "/dungeon.html"
+    },
+    {
+      "source": "/magic-hats",
+      "destination": "/magic-hats.html"
+    },
+    {
+      "source": "/gacha",
+      "destination": "/gacha.html"
+    },
+    {
+      "source": "/leaderboard",
+      "destination": "/leaderboard.html"
+    }
+  ]
+}
